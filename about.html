@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — AI Student Hub</title>
+<meta name="description" content="Why AI Student Hub exists, how tools get chosen for the directory, and who runs it.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://example.com/about.html">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="brand" href="index.html">AI Student Hub <span class="brand-mark">BETA</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html" aria-current="page">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-header wrap">
+    <p class="eyebrow-note">about the project</p>
+    <h1>A directory built between classes, not in a boardroom.</h1>
+  </div>
+
+  <div class="page-content wrap">
+    <p>AI Student Hub started as a personal list of AI tools that actually held up under deadline pressure — the ones that survived being tested on a real assignment, not just a demo. It grew into a directory organized the way students actually think about their work: by task, not by product category.</p>
+
+    <h2>What belongs here</h2>
+    <p>Every tool listed has a free tier or is free to use outright. We link out to the tool itself rather than reproducing its content, and each entry says plainly what the tool is good for and where it tends to fall short.</p>
+
+    <h2>What doesn't belong here</h2>
+    <p>Tools that require payment with no usable free option, tools that primarily encourage submitting work you didn't do yourself, and anything that misrepresents what a university expects from original coursework.</p>
+
+    <h2>How the site makes money</h2>
+    <p>AI Student Hub is supported by advertising, which helps cover hosting costs. Ads are served by Google AdSense and are kept separate from the resource listings — nothing on this site is a paid placement disguised as a recommendation. See the <a href="privacy.html">Privacy Policy</a> for details on how ads and analytics work here.</p>
+
+    <h2>Who's behind it</h2>
+    <p>AI Student Hub is an independent, student-run project. It isn't affiliated with any university or any of the tools listed in the directory.</p>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>AI Student Hub</h4>
+        <p class="muted" style="font-size:0.9rem; max-width:32ch;">A directory of AI tools for university life, organized by task.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="index.html">Study</a></li>
+          <li><a href="index.html">Coding</a></li>
+          <li><a href="index.html">Research</a></li>
+          <li><a href="index.html">Presentations</a></li>
+          <li><a href="index.html">Productivity</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> AI Student Hub. All rights reserved.</span>
+      <span>Built by a student, for students.</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="js/script.js"></script>
+</body>
+</html>

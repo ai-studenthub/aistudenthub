@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AI Student Hub — AI Tools & Resources for University Students</title>
+<meta name="description" content="A student-run directory of free and useful AI tools for study, coding, research, presentations, and productivity — organized by what you're actually trying to get done.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://example.com/">
+<meta property="og:title" content="AI Student Hub — AI Tools & Resources for University Students">
+<meta property="og:description" content="Find the right AI tool for studying, coding, research, presentations, and productivity.">
+<meta property="og:type" content="website">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="brand" href="index.html">AI Student Hub <span class="brand-mark">BETA</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html" aria-current="page">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero">
+    <div class="wrap hero-inner">
+      <p class="eyebrow-note">a directory built by students, for students</p>
+      <h1>Find the right AI tool before the deadline finds you.</h1>
+      <p class="lede">AI Student Hub collects free and low-cost AI tools that actually help with university work — sorted by what you're trying to do, not by hype.</p>
+
+      <form class="search-box" id="search-form" role="search">
+        <label for="search-input" class="visually-hidden" style="position:absolute;left:-9999px;">Search tools and resources</label>
+        <input type="search" id="search-input" placeholder="Search “summarize a paper”, “fix my code”…" autocomplete="off">
+        <button type="submit">Search</button>
+      </form>
+      <p class="search-hint">Try a task, a tool name, or a subject — results update as you type.</p>
+    </div>
+  </section>
+
+  <div class="category-tabs">
+    <div class="wrap" role="tablist" aria-label="Filter by category">
+      <button class="tab-btn" type="button" role="tab" data-cat="all" aria-selected="true">
+        All
+      </button>
+      <button class="tab-btn" type="button" role="tab" data-cat="study" aria-selected="false">
+        <span class="dot"></span>Study
+      </button>
+      <button class="tab-btn" type="button" role="tab" data-cat="coding" aria-selected="false">
+        <span class="dot"></span>Coding
+      </button>
+      <button class="tab-btn" type="button" role="tab" data-cat="research" aria-selected="false">
+        <span class="dot"></span>Research
+      </button>
+      <button class="tab-btn" type="button" role="tab" data-cat="presentations" aria-selected="false">
+        <span class="dot"></span>Presentations
+      </button>
+      <button class="tab-btn" type="button" role="tab" data-cat="productivity" aria-selected="false">
+        <span class="dot"></span>Productivity
+      </button>
+    </div>
+  </div>
+
+  <section class="articles-section wrap">
+    <h2>Latest resources</h2>
+    <p class="results-count" id="results-count">20 resources found</p>
+
+    <div class="article-grid" id="article-grid" aria-live="polite">
+      <!-- Cards are rendered by js/script.js -->
+    </div>
+
+    <p class="no-results" id="no-results">No resources match that search. Try a different word, or clear the filter above.</p>
+
+    <div class="ad-slot" aria-hidden="true">Ad space</div>
+  </section>
+
+  <section class="wrap">
+    <div class="callout">
+      <div>
+        <h2>Have a tool we should feature?</h2>
+        <p>Tell us what you're using and we'll consider it for the directory.</p>
+      </div>
+      <a class="btn-primary" href="contact.html">Suggest a tool</a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>AI Student Hub</h4>
+        <p class="muted" style="font-size:0.9rem; max-width:32ch;">A directory of AI tools for university life, organized by task.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="index.html#main">Study</a></li>
+          <li><a href="index.html#main">Coding</a></li>
+          <li><a href="index.html#main">Research</a></li>
+          <li><a href="index.html#main">Presentations</a></li>
+          <li><a href="index.html#main">Productivity</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> AI Student Hub. All rights reserved.</span>
+      <span>Built by a student, for students.</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="js/script.js"></script>
+</body>
+</html>

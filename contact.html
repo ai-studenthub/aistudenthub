@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — AI Student Hub</title>
+<meta name="description" content="Get in touch with AI Student Hub to suggest a tool, report an issue, or ask a question.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://example.com/contact.html">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="wrap nav-row">
+    <a class="brand" href="index.html">AI Student Hub <span class="brand-mark">BETA</span></a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+      <a href="privacy.html">Privacy Policy</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+  <div class="page-header wrap">
+    <p class="eyebrow-note">get in touch</p>
+    <h1>Suggest a tool, report a problem, or just say hi.</h1>
+  </div>
+
+  <div class="page-content wrap">
+    <div class="contact-grid">
+      <div>
+        <form id="contact-form" action="mailto:hello@aistudenthub.example" method="post" enctype="text/plain">
+          <div class="field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+          <div class="field">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Tool suggestion, correction, question…">
+          </div>
+          <div class="field">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit" class="btn-primary">Send message</button>
+          <p class="form-note">This opens your email app with the message pre-filled — the site doesn't store or transmit form data on its own.</p>
+        </form>
+      </div>
+
+      <aside class="contact-info-card">
+        <h3>Direct contact</h3>
+        <p>Email: <a href="mailto:hello@aistudenthub.example">hello@aistudenthub.example</a></p>
+        <h3>Response time</h3>
+        <p>Usually within a few days — this is a small, independent project.</p>
+        <h3>Tool submissions</h3>
+        <p>Include the tool's name, a link, and one sentence on what it's useful for. Paid-only tools with no free tier aren't added.</p>
+      </aside>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>AI Student Hub</h4>
+        <p class="muted" style="font-size:0.9rem; max-width:32ch;">A directory of AI tools for university life, organized by task.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Categories</h4>
+        <ul>
+          <li><a href="index.html">Study</a></li>
+          <li><a href="index.html">Coding</a></li>
+          <li><a href="index.html">Research</a></li>
+          <li><a href="index.html">Presentations</a></li>
+          <li><a href="index.html">Productivity</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; <span id="year"></span> AI Student Hub. All rights reserved.</span>
+      <span>Built by a student, for students.</span>
+    </div>
+  </div>
+</footer>
+
+<script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+<script src="js/script.js"></script>
+</body>
+</html>
