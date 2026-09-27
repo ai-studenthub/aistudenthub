@@ -1,20 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
   <url>
     <loc>https://ai-studenthub.github.io/aistudenthub/</loc>
   </url>
-
   <url>
     <loc>https://ai-studenthub.github.io/aistudenthub/about.html</loc>
   </url>
-
   <url>
     <loc>https://ai-studenthub.github.io/aistudenthub/contact.html</loc>
   </url>
-
   <url>
     <loc>https://ai-studenthub.github.io/aistudenthub/privacy.html</loc>
   </url>
-
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-literature-reviews.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-coding-assignments.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-studying.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-presentations.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-productivity.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-essay-writing.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-note-taking.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-exam-prep.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/ai-tools-for-group-projects.html</loc>
+  </url>
+  <url>
+    <loc>https://ai-studenthub.github.io/aistudenthub/articles/best-ai-tools-for-language-learning.html</loc>
+  </url>
 </urlset>
